@@ -1,19 +1,18 @@
 ---
 title: "Aprendamos un poco más de RevealJS"
-author: "Jhon W. Muñuico"
+author: "Irwing S. Saldaña"
 format: 
   revealjs:
     theme: simple
     slide-number: true
     incremental: true
-    transition: slide
+    transition: convex
     transition-speed: slow
     code-overlays: true
     width: 1280
     height: 720
-    scrollable: true
 title-slide-attributes:
-  data-background-image: "https://crehana-blog.s3.amazonaws.com/media/filer_public/e2/51/e251c6a3-45f5-4296-bc71-878b49f29b60/fondo_ppt_naturaleza_1.jpg"
+  data-background-image: "https://image.slidesdocs.com/responsive-images/background/blue-abstract-texture-polygon-technology-nature-powerpoint-background_94e8175035__960_540.jpg"
   data-background-size: cover
   data-background-opacity: "1"   
 ---
@@ -22,9 +21,6 @@ title-slide-attributes:
 
 Aquí hay un top secret.
 
-## OTRA invisible {visibility="hidden"}
-
-Hola
 
 ## Temas de RevealJS (diapo centrada) {.center}
 
@@ -61,10 +57,7 @@ Hola
 
 ## Imagen desde la Web
 
-![Fig. 1. Tipo de peces](exports/figs/peces_figura_2.png)
-
-
-![Quarto Logo](https://quarto.org/images/demo-jupyter-plain.png)
+![Quarto Logo](https://quarto.org/img/quarto-logo.png)
 
 
 
@@ -72,12 +65,6 @@ Hola
 
 ::: {.r-fit-text}
 masterX
-:::
-
-## {.center}
-
-::: {.r-fit-text}
-Configuraciones
 :::
 
 ## Añadiendo fragmentos 
@@ -102,14 +89,6 @@ Fade in, then out
 Slide up while fading in
 :::
 
-::: {.fragment .fade-up}
-
-```{r}
-x <- seq(0, 4, 0.1)
-plot(x, dnorm(x, 2, 0.5), type = "l")
-```
-
-:::
 
 ## Añadiendo orden a los fragmentos
 
